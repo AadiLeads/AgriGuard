@@ -1,0 +1,123 @@
+# ============================
+# Node & React Native
+# ============================
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+dist/
+build/
+.expo/
+.expo-shared/
+expo-debug.log
+expo-error.log
+
+# Metro cache
+.metro/
+.expo/*
+.expo-shared/*
+
+# ============================
+# Expo Assets
+# ============================
+web-build/
+android/app/build/
+ios/build/
+*.iml
+
+# ============================
+# Mac / OS / Editors
+# ============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ============================
+# TypeScript
+# ============================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ============================
+# Android
+# ============================
+*.keystore
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/debug.keystore
+
+# ============================
+# iOS
+# ============================
+ios/Pods/
+ios/DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+
+# ============================
+# Python / FastAPI backend
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.mypy_cache/
+.pytest_cache/
+coverage/
+*.db
+*.sqlite3
+
+# Uvicorn / FastAPI logs
+logs/
+*.log
+
+# ============================
+# ENV / Keys / Tokens
+# ============================
+.env
+.env.* 
+*.pem
+*.crt
+*.key
+
+# Expo SecureStore (IMPORTANT)
+# Do NOT commit RSA private keys generated on device
+*.pem
+privateKeyPem
+publicKeyPem
+
+# FastAPI local device registry
+device_registry.json
+
+# ============================
+# Images / Outputs
+# ============================
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# AI Model files
+*.pth
+*.pt
+*.onnx
+outputs/
+model_cache/
+
+# PDF / Reports
+*.pdf
+
+# ============================
+# JetBrains / IntelliJ
+# ============================
+*.iml
+.idea/
